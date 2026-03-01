@@ -1,6 +1,6 @@
 name: Issue workflow
 on: issues
-job:
+jobs:
   output-info:
     runs-on: ubuntu-latest
     steps:
