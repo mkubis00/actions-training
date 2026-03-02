@@ -39,7 +39,7 @@ jobs:
       - name: Get build artifacts
         uses: actions/download-artifact@v7
         with:
-          name: disf-file
+          name: dist-file
       - name: Show artifacts
         run: ls
       - name: Deploy
