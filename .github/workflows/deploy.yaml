@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Upload artifacts
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v6
         with:
           name: dist-file
           path: dist
